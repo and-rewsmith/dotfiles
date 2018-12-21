@@ -14,6 +14,9 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'haya14busa/incsearch.vim'
 Plugin 'tyru/caw.vim'
+Plugin 'raimondi/delimitMate'
+Plugin 'jpalardy/vim-slime'
+Plugin 'tpope/vim-surround'
 
 
 
