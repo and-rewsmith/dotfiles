@@ -11,7 +11,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/vim-plug'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'haya14busa/incsearch.vim'
 Plugin 'tyru/caw.vim'
 
