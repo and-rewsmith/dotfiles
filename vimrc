@@ -7,7 +7,13 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 Plugin 'itchyny/lightline.vim'
-Plugin 'itchyny/vim-gitbranch'
+Plugin 'tpope/vim-fugitive'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'junegunn/vim-plug'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'kien/ctrlp.vim'
+Plugin 'haya14busa/incsearch.vim'
+Plugin 'tyru/caw.vim'
 
 
 
@@ -35,6 +41,7 @@ filetype plugin indent on    " required
 
 " lighline config
 set laststatus=2
+set noshowmode
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
@@ -42,7 +49,7 @@ let g:lightline = {
       \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
       \ },
       \ 'component_function': {
-      \   'gitbranch': 'gitbranch#name'
+      \   'gitbranch': 'fugitive#head'
       \ },
       \ }
 
