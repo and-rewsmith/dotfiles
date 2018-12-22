@@ -17,6 +17,7 @@ Plugin 'tyru/caw.vim'
 Plugin 'raimondi/delimitMate'
 Plugin 'jpalardy/vim-slime'
 Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdtree'
 
 
 
@@ -57,7 +58,7 @@ let g:lightline = {
       \ }
 
 
-set number
+" set number
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 

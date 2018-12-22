@@ -1,0 +1,21 @@
+VIM:
+  <c-s> - freeze
+  <c-q> - resume
+  <c-w> [dir] - change windows
+
+
+
+NERDTREE:
+  enter - expand
+  x - collapse
+  s - open in vertical
+  o - open and replace
+  i - open horizontal
+
+CNTRLP:
+  <c-w> - reset search
+  <c-t> - open file in tab
+  <c-x> - open file in horizontal
+  <c-v> - open file in vertical
+
+
