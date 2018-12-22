@@ -3,8 +3,6 @@ VIM:
   <c-q> - resume
   <c-w> [dir] - change windows
 
-
-
 NERDTREE:
   enter - expand
   x - collapse
@@ -19,7 +17,6 @@ CNTRLP:
   <c-v> - open file in vertical
 
 CAW:
-
   Type "gci" (toggle: "gcc", uncomment: "gcui")
     before:
         "   <- inserted here"
@@ -65,10 +62,6 @@ CAW:
     after:
         "   // "  (now cursor is at the end and entered insert-mode)
         "   func1();"
-
-
-
-
 
 FOLDING:
     Vim folding commands
