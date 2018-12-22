@@ -62,6 +62,13 @@ let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 
 " set number
+let mapleader = ","
+nmap <leader>num :set number<cr>
+nmap <leader>nonum :set nonumber<cr>
+
+
+
+
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 
