@@ -63,6 +63,11 @@ CAW:
         "   // "  (now cursor is at the end and entered insert-mode)
         "   func1();"
 
+BRACKETS:
+  cs[current][new] - change
+  ds[current] - delete
+  yss[new] - add
+
 FOLDING:
     Vim folding commands
     ---------------------------------
