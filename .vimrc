@@ -57,6 +57,9 @@ let g:lightline = {
       \ },
       \ }
 
+" nerdtree config
+let mapleader = ","
+nmap <leader>ne :NERDTree<cr>
 
 " set number
 syntax on
