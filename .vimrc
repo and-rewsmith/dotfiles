@@ -2,7 +2,6 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set encoding=utf-8
 
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -10,7 +9,6 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 Plugin 'itchyny/lightline.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'junegunn/vim-plug'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -22,6 +20,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kana/vim-repeat'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'Yggdroot/indentLine'
+
 
 
 
@@ -73,8 +74,10 @@ nmap <leader>nonum :set nonumber<cr>
 " gitgutter config
 set updatetime=100
 
+" indent config
+let g:indentLine_enabled = 1
 
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
-
-
+set foldmethod=indent
+set foldlevelstart=99
