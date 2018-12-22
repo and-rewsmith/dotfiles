@@ -18,6 +18,7 @@ Plugin 'raimondi/delimitMate'
 Plugin 'jpalardy/vim-slime'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
+Plugin 'kana/vim-repeat'
 
 
 
