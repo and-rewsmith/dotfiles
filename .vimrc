@@ -1,5 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
+set encoding=utf-8
+
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -19,6 +21,7 @@ Plugin 'jpalardy/vim-slime'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kana/vim-repeat'
+Plugin 'airblade/vim-gitgutter'
 
 
 
@@ -67,7 +70,8 @@ let mapleader = ","
 nmap <leader>num :set number<cr>
 nmap <leader>nonum :set nonumber<cr>
 
-
+" gitgutter config
+set updatetime=100
 
 
 syntax on
