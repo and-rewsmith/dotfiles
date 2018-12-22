@@ -68,8 +68,8 @@ nmap <leader>ne :NERDTree<cr>
 
 " set number
 let mapleader = ","
-nmap <leader>num :set number<cr>
-nmap <leader>nonum :set nonumber<cr>
+nmap <leader>nm :set number<cr>
+nmap <leader>nnm :set nonumber<cr>
 
 " gitgutter config
 set updatetime=100
