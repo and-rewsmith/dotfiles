@@ -16,6 +16,12 @@ CNTRLP:
   <c-x> - open file in horizontal
   <c-v> - open file in vertical
 
+SYNTASTIC:
+  :SyntasticCheck - check syntax
+  :Errors - show errors list
+  :lclose - hide errors list
+  :SyntasticReset - hide all errors
+
 CAW:
   Type "gci" (toggle: "gcc", uncomment: "gcui")
     before:
