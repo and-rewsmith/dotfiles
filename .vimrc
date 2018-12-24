@@ -70,7 +70,7 @@ let g:indentLine_enabled = 1
 " pylint config
 let mapleader = ","
 nmap <leader>er :SyntasticCheck<cr>
-nmap <leader>ner :SyntasticReset<cr>
+nmap <leader>re :SyntasticReset<cr>
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
