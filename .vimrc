@@ -55,6 +55,7 @@ let g:lightline = {
 " nerdtree config
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
+let NERDTreeShowHidden=1
 
 " set number
 let mapleader = ","
@@ -93,3 +94,4 @@ syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set foldmethod=indent
 set foldlevelstart=99
+au FileType text set smartindent
