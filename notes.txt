@@ -93,3 +93,7 @@ FOLDING:
     zE deletes all folds.
     [z move to start of open fold.
     ]z move to end of open fold.
+
+GENERAL:
+    wifi icon dissappeared: nohup nm-applet &
+    disable interface:  sudo ip link set wlp3s0 up
