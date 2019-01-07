@@ -94,6 +94,11 @@ FOLDING:
     [z move to start of open fold.
     ]z move to end of open fold.
 
+CTAGS:
+  <C-]> opens def in new tab
+  example generation: 
+    ctags --exclude=node_modules --languages=javascript -R .
+
 GENERAL:
     wifi icon dissappeared: nohup nm-applet &
     disable interface:  sudo ip link set wlp3s0 up
