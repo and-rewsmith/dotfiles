@@ -22,6 +22,8 @@ Plugin 'kana/vim-repeat'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'Yggdroot/indentLine'
+Plugin 'xolox/vim-easytags'
+Plugin 'xolox/vim-misc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -89,6 +91,12 @@ map *  <Plug>(incsearch-nohl-*)
 map #  <Plug>(incsearch-nohl-#)
 map g* <Plug>(incsearch-nohl-g*)
 map g# <Plug>(incsearch-nohl-g#)
+
+" easytags config
+set tags=./tags,tags;$HOME
+" let mapleader = ","
+" nmap <leader><C-]> <C-w><C-]><C-w>T
+nnoremap <silent><C-]> <C-w><C-]><C-w>T
 
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
