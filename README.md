@@ -1,5 +1,5 @@
 # vimrc
-My .vimrc and environment config
+My .vimrc and environment config.
 
 ## What I'm Using
 - [Universal Ctags](https://github.com/universal-ctags/ctags)
