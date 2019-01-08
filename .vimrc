@@ -40,6 +40,11 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+"  Cntrl p config
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_max_files=0 
+let g:ctrlp_max_depth=40
+
 " lighline config
 set laststatus=2
 set noshowmode
