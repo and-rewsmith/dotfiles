@@ -6,7 +6,6 @@ My .vimrc and environment config.
 - [Papirus Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [Dash to Panel](https://github.com/home-sweet-gnome/dash-to-panel)
 - [Workspace Grid](https://github.com/zakkak/workspace-grid)
-- [Background Image](https://github.com/and-rewsmith/vimrc/blob/master/pics/minimaldark.jpg)
 - [Universal Ctags](https://github.com/universal-ctags/ctags)
 - [Gogh Terminal Themes](https://github.com/Mayccoll/Gogh)
 - [YCM Autocomplete](https://github.com/queezythegreat/vim-YouCompleteMe)
