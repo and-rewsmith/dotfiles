@@ -115,5 +115,6 @@ set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set foldmethod=indent
 set foldlevelstart=99
 au FileType text set smartindent
+set breakindent
 nnoremap d "_d
 vnoremap d "_d
