@@ -101,7 +101,7 @@ CTAGS:
 
 YCMD:
   ,inf gives docstring
-  ,ninf closes docstring
+  ,ck closes docstring
   ,def gives definition in new tab
 
 GENERAL:

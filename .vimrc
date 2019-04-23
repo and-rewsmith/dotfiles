@@ -114,7 +114,7 @@ nnoremap <silent><C-]> <C-w><C-]><C-w>T
 let mapleader = ","
 let g:ycm_goto_buffer_command = "new-tab"
 nmap <leader>inf :YcmCompleter GetDoc<cr>
-nmap <leader>ninf <C-w>k:q
+nmap <leader>ck <C-w>k:q
 nmap <leader>def :YcmCompleter GoToDefinition<cr>
 
 
