@@ -110,6 +110,14 @@ set tags=./tags,tags;$HOME
 " nmap <leader><C-]> <C-w><C-]><C-w>T
 nnoremap <silent><C-]> <C-w><C-]><C-w>T
 
+" YCMD config
+let mapleader = ","
+let g:ycm_goto_buffer_command = "new-tab"
+nmap <leader>inf :YcmCompleter GetDoc<cr>
+nmap <leader>ninf <C-w>k:q
+nmap <leader>def :YcmCompleter GoToDefinition<cr>
+
+
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
 set foldmethod=indent

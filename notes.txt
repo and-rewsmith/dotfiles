@@ -99,6 +99,11 @@ CTAGS:
   example generation: 
     ctags --exclude=node_modules --languages=javascript -R .
 
+YCMD:
+  ,inf gives docstring
+  ,ninf closes docstring
+  ,def gives definition in new tab
+
 GENERAL:
     wifi icon dissappeared: nohup nm-applet &
     disable interface:  sudo ip link set wlp3s0 up
