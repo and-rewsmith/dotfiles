@@ -24,6 +24,7 @@ Plugin 'Yggdroot/indentLine'
 Plugin 'xolox/vim-easytags'
 Plugin 'xolox/vim-misc'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'bkad/CamelCaseMotion'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -117,6 +118,16 @@ nmap <leader>inf :YcmCompleter GetDoc<cr>
 nmap <leader>ck <C-w>k:q
 nmap <leader>def :YcmCompleter GoToDefinition<cr>
 
+" camelCaseMotion config
+call camelcasemotion#CreateMotionMappings('<leader>')
+map <silent> w <Plug>CamelCaseMotion_w
+map <silent> b <Plug>CamelCaseMotion_b
+map <silent> e <Plug>CamelCaseMotion_e
+map <silent> ge <Plug>CamelCaseMotion_ge
+sunmap w
+sunmap b
+sunmap e
+sunmap ge
 
 syntax on
 set tabstop=2 softtabstop=0 expandtab shiftwidth=2 smarttab
