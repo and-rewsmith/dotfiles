@@ -101,8 +101,8 @@ CTAGS:
     ctags --exclude=node_modules --languages=javascript -R .
 
 YCMD:
-  ,inf gives docstring
-  ,ck closes docstring
+  ,i gives docstring
+  ,ni closes docstring
   ,def gives definition in new tab
 
 GENERAL:
