@@ -73,6 +73,7 @@ BRACKETS:
   cs[current][new] - change
   ds[current] - delete
   yss[new] - add
+  S[new] - add when in visual
 
 FOLDING:
     Vim folding commands
