@@ -1,0 +1,24 @@
+{
+  "vim.camelCaseMotion.enable": true,
+  "vim.foldfix": true,
+  "window.zoomLevel": 0,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["d"],
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["w"],
+      "after": ["<leader>", "w"]
+    },
+    {
+      "before": ["e"],
+      "after": ["<leader>", "e"]
+    },
+    {
+      "before": ["b"],
+      "after": ["<leader>", "b"]
+    }
+  ],
+  "vim.visualstar": true
+}
