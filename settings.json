@@ -18,7 +18,12 @@
     {
       "before": ["b"],
       "after": ["<leader>", "b"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
     }
   ],
-  "vim.visualstar": true
+  "vim.visualstar": true,
+  "vim.hlsearch": true
 }
