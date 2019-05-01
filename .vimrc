@@ -41,6 +41,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" swapfile config
+set directory=/home/als5ev/.vim/swapfiles//
+
 "  Cntrl p config
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_max_files=0 
@@ -64,6 +67,9 @@ let g:lightline = {
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 " set number
 let mapleader = ","
