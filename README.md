@@ -1,5 +1,5 @@
-# vimrc
-My .vimrc and environment config.
+# dotfiles
+My .vimrc, .bashrc, and environment config.
 
 ## What I'm Using (Ubuntu 18.04)
 - [Arc Darker Theme](https://github.com/horst3180/arc-theme)
