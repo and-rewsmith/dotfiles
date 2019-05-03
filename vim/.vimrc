@@ -25,6 +25,7 @@ Plugin 'xolox/vim-easytags'
 Plugin 'xolox/vim-misc'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'bkad/CamelCaseMotion'
+Plugin 'jparise/vim-graphql'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

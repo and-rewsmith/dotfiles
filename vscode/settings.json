@@ -25,5 +25,6 @@
     }
   ],
   "vim.visualstar": true,
-  "vim.hlsearch": true
+  "vim.hlsearch": true,
+  "workbench.editor.enablePreview": false
 }
