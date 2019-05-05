@@ -123,7 +123,8 @@ let mapleader = ","
 let g:ycm_goto_buffer_command = "new-tab"
 nmap <leader>i :YcmCompleter GetDoc<cr>
 nmap <leader>ni <C-w>k:q
-nmap <leader>def :YcmCompleter GoToDefinition<cr>
+nmap <leader>def :YcmCompleter GoTo<cr>
+" nmap <leader>imp :YcmCompleter GoToImplementationElseDeclaration<cr>
 
 " camelCaseMotion config
 call camelcasemotion#CreateMotionMappings('<leader>')
