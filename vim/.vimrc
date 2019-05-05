@@ -144,3 +144,4 @@ au FileType text set smartindent
 set breakindent
 nnoremap d "_d
 vnoremap d "_d
+nmap <leader>qq :mksession! ./mysession.vim<cr>
