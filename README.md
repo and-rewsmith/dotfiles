@@ -9,3 +9,4 @@ My .vimrc, .bashrc, and environment config.
 - [Universal Ctags](https://github.com/universal-ctags/ctags)
 - [Gogh Terminal Themes](https://github.com/Mayccoll/Gogh)
 - [YCM Autocomplete](https://github.com/queezythegreat/vim-YouCompleteMe)
+- [vsCode](https://gist.github.com/and-rewsmith/af6cb3163eb899c1714d7517db4c62ff)
