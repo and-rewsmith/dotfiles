@@ -26,6 +26,7 @@ Plugin 'xolox/vim-misc'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'bkad/CamelCaseMotion'
 Plugin 'jparise/vim-graphql'
+Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,7 +70,7 @@ let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
-let NERDTreeMinimalUI = 1
+let NERDTreeMinimalUI = 0
 let NERDTreeDirArrows = 1
 
 " set number
