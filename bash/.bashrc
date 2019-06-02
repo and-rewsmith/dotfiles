@@ -130,6 +130,6 @@ fi
 export PATH="$PATH:$HOME/.rvm/bin"
 source /opt/ros/melodic/setup.bash
 
-export ROS_HOSTNAME=localhost
-export ROS_MASTER_URI=http://localhost:11311
-# export ROS_MASTER_URI=http://192.168.1.1:11311
+#export ROS_HOSTNAME=localhost
+#export ROS_MASTER_URI=http://localhost:11311
+export ROS_MASTER_URI=http://192.168.1.1:11311
