@@ -10,3 +10,4 @@ My .vimrc, .bashrc, and environment config.
 - [Gogh Terminal Themes](https://github.com/Mayccoll/Gogh)
 - [YCM Autocomplete](https://github.com/queezythegreat/vim-YouCompleteMe)
 - [vsCode](https://gist.github.com/and-rewsmith/af6cb3163eb899c1714d7517db4c62ff)
+- [change focus mode to sloppy](https://askubuntu.com/questions/640805/gnome-shell-multi-desktop-changes-focus-to-other-screen)
