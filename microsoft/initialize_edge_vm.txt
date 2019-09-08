@@ -1,0 +1,20 @@
+az extension add --name azure-cli-iot-ext
+
+az vm image accept-terms --urn microsoft_iot_edge:iot_edge_vm_ubuntu:ubuntu_1604_edgeruntimeonly:latest
+
+az vm create --resource-group IoTEdgeResources --name andsmiEdgeVM --image microsoft_iot_edge:iot_edge_vm_ubuntu:ubuntu_1604_edgeruntimeonly:latest --admin-username azureuser --generate-ssh-keys
+
+az iot hub device-identity create --hub-name andsmi-iotedgequickstart-hub
+ --device-id andsmiEdgeVM --edge-enabled
+
+ az iot hub device-identity show-connection-string --device-id andsmiEdgeVM --hub-name andsmi-iotedgequickstart-hub
+
+ az iot hub device-identity show-connection-string --device-id andsmiEdgeVM --hub-name andsmi-iotedgequickstart-hub
+
+ az vm run-command invoke -g IoTEdgeResources -n EdgeVM --command-id RunShellScript --script "/etc/iotedge/configedge.sh '{device_connection_string}'"
+
+
+
+
+
+
