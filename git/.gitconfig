@@ -3,3 +3,5 @@
   name = Andrew
 [alias]
   recent-branches = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
+[core]
+	editor = vim
