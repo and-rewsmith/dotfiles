@@ -1,6 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set encoding=utf-8
+set eol
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -44,7 +45,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 " swapfile config
-set directory=/home/als5ev/.vim/swapfiles//
+set directory=/home/andrew/.vim/swapfiles//
 
 "  Cntrl p config
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
