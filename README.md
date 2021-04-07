@@ -11,3 +11,9 @@ My .vimrc, .bashrc, and environment config.
 - [YCM Autocomplete](https://github.com/queezythegreat/vim-YouCompleteMe)
 - [vsCode](https://gist.github.com/and-rewsmith/af6cb3163eb899c1714d7517db4c62ff)
 - [change focus mode to sloppy](https://askubuntu.com/questions/640805/gnome-shell-multi-desktop-changes-focus-to-other-screen)
+
+## What I want my home directory to look like
+```
+~/Documents$ ls
+dotfiles  life  projects  scripts  tmp  util
+```
