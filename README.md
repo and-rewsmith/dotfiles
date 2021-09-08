@@ -15,5 +15,5 @@ My .vimrc, .bashrc, and environment config.
 ## What I want my home directory to look like
 ```
 ~/Documents$ ls
-dotfiles  life  projects  scripts  tmp  util
+dev-env  life  projects  scripts  tmp  util
 ```
