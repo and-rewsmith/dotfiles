@@ -1,7 +1,7 @@
 # dotfiles
 My .vimrc, .bashrc, and environment config.
 
-## What I'm Using (Ubuntu 18.04)
+## What I'm Using (Ubuntu 20.04)
 - [Arc Darker Theme](https://github.com/horst3180/arc-theme)
 - [Papirus Icons](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - [Dash to Panel](https://github.com/home-sweet-gnome/dash-to-panel)
