@@ -1,0 +1,10 @@
+# Cycle windows with a single keypress
+cmd + shift - o : ~/Documents/util/yabai/cycle_windows.sh
+
+shift + cmd - left  : yabai -m window --focus west
+shift + cmd - down  : yabai -m window --focus south
+shift + cmd - up    : yabai -m window --focus north
+shift + cmd - right : yabai -m window --focus east
+
+# yabai -m signal --add event=window_created action="yabai -m window --focus recent"
+
