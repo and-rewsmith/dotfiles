@@ -2,6 +2,11 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+alias cm='~/Documents/scripts/git/commit.sh'
+alias gp='git push'
+alias gs='git status'
+alias gd='git diff'
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
